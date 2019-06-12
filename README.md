@@ -2,20 +2,20 @@
 
 O Endian Firewall é uma [distribuição Linux](https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux) especializada em roteamento/firewall que possui uma interface unificada de gerenciamento. Foi desenvolvido pela italiana [Endian Srl](https://pt.wikipedia.org/w/index.php?title=Societ%C3%A0_a_Responsabilit%C3%A0_Limita&action=edit&redlink=1) e pela comunidade.
 
-O Endian Firewall foi originalmente baseado no [IPCop](https://pt.wikipedia.org/wiki/IPCop), sendo que este é um fork do projeto [Smoothwall](http://en.wikipedia.org/wiki/SmoothWall).
+O Endian Firewall foi originalmente baseado no [IPCop](https://pt.wikipedia.org/wiki/IPCop), sendo que este é um fork do projeto [Smoothwall](http://en.wikipedia.org/wiki/SmoothWall). [Wikipédia](https://pt.wikipedia.org/wiki/Endian_Firewall)
 
 - A Versão 3.0 contém os seguintes pacotes e funcionalidades:
 - Firewall (ambas direções)
 - Gateway
 - VPN com OpenVPN ou IPsec
-- Web Antivirus
+- Web Antivírus
 - Web Anti-spam
 - E-Mail Antivírus
 - E-Mail Anti-spam
 - Transparente HTTP-Proxy
 - Filtro de Conteúdo
 - Ponto de Acesso sem Fio Seguro
-- Protocolo de Inicializacão de Sessão - SIP e Suporte para VoIP
+- Protocolo de Inicialização de Sessão - SIP e Suporte para VoIP
 - Tradução de Endereços de Rede NAT
 - Multi endereços IP (apelidos/aliases)
 - HTTPS web interface
@@ -24,8 +24,8 @@ O Endian Firewall foi originalmente baseado no [IPCop](https://pt.wikipedia.org/
 - Redirecionamento de logs para servidor externo
 - DHCP-Servidor
 - Servidor de Tempo NTP-Servidor
-- Sistema de Deteccão de Intrusos IDS
-- Sistema de Prevençã de Intrusos IPS
+- Sistema de Detecção de Intrusos IDS
+- Sistema de Prevenção de Intrusos IPS
 - ADSL-Modem Suporte
 
 ### Markdown
