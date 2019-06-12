@@ -1,8 +1,32 @@
-## Welcome to GitHub Pages
+## Edian Firewall
 
-You can use the [editor on GitHub](https://github.com/EzzioMoreira/endianfirewall/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+O Endian Firewall é uma [distribuição Linux](https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux) especializada em roteamento/firewall que possui uma interface unificada de gerenciamento. Foi desenvolvido pela italiana [Endian Srl](https://pt.wikipedia.org/w/index.php?title=Societ%C3%A0_a_Responsabilit%C3%A0_Limita&action=edit&redlink=1) e pela comunidade.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+O Endian Firewall foi originalmente baseado no [IPCop](https://pt.wikipedia.org/wiki/IPCop), sendo que este é um fork do projeto [Smoothwall](http://en.wikipedia.org/wiki/SmoothWall).
+
+A Versão 3.0 contém os seguintes pacotes e funcionalidades:
+Firewall (ambas direções)
+Gateway
+VPN com OpenVPN ou IPsec
+Web Antivirus
+Web Anti-spam
+E-Mail Antivírus
+E-Mail Anti-spam
+Transparente HTTP-Proxy
+Filtro de Conteúdo
+Ponto de Acesso sem Fio Seguro
+Protocolo de Inicializacão de Sessão - SIP e Suporte para VoIP
+Tradução de Endereços de Rede NAT
+Multi endereços IP (apelidos/aliases)
+HTTPS web interface
+Estatísticas de Conexão
+Log de tráfego na rede
+Redirecionamento de logs para servidor externo
+DHCP-Servidor
+Servidor de Tempo NTP-Servidor
+Sistema de Deteccão de Intrusos IDS
+Sistema de Prevençã de Intrusos IPS
+ADSL-Modem Suporte
 
 ### Markdown
 
