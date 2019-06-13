@@ -4,6 +4,7 @@ O Endian Firewall é uma [distribuição Linux](https://pt.wikipedia.org/wiki/Di
 
 O Endian Firewall foi originalmente baseado no [IPCop](https://pt.wikipedia.org/wiki/IPCop), sendo que este é um fork do projeto [Smoothwall](http://en.wikipedia.org/wiki/SmoothWall).
 [Wikipédia](https://pt.wikipedia.org/wiki/Endian_Firewall).
+
 ![Image](/images/logo.jpg)
 
 - A Versão 3.0 contém os seguintes pacotes e funcionalidades:
@@ -166,4 +167,14 @@ As páginas de status apresenta uma lista completa de informações sobre o esta
 
 ### Network
 
-Esta páginas é projetado para ajudá-lo a administrar configuração relacionada a rede.
+Esta página é projetada para ajudá-lo a administrar configuração relacionada a rede. Permite configurar entradas de host personalizado. Endian Firewall está executando um proxy DNS chamada dnsmasq, que encaminha todos os pedidos de resolução DNS do seu uplink RED. Isto é muito útil se você quiser criar nomes de máquinas que podem ser resolvidos apenas por seus clientes, mas não pode configurá-los diretamente no seu servidor DNS.
+
+![Image](/images/network/net1.jpg)
+
+- Editor de rotas estáticas é possibilita criar rotas especificas para um endereçamento IP, porta ou uplink especifico.
+
+![Image](/images/network/net2.jpg)
+
+- Gerenciamento de uplink esta página você pode criar regras de failover dos uplinks.
+
+![Image](/images/network/net3.jpg)
