@@ -178,3 +178,29 @@ Esta página é projetada para ajudá-lo a administrar configuração relacionad
 - Gerenciamento de uplink esta página você pode criar regras de failover dos uplinks.
 
 ![Image](/images/network/net3.jpg)
+
+### Serviços
+
+Além de sua função principal de firewall Internet, EFW pode fornecer uma série de outros serviços que são úteis em uma pequena rede.
+
+![Image](/images/service/serv1.jpg)
+
+- Servidor DHCP (Dynamic Host Configuration Protocol) permite que você controle a configuração de rede de todos os seus computadores ou outros dispositivos de sua Endian Firewall. Adicionar uma concessão fixa de endereçamento IP, baseado no endereço MAC da placa de rede na máquina.
+
+![Image](/images/service/serv2.jpg)
+
+- DNS dinâmico para usar DYNDNS você deve primeiro registrar um subdomínio com um provedor DYNDNS.
+
+![Image](/images/service/serv3.jpg)
+
+- ClamAV é um antivírus Open Source que pode ser utilizado para escanear todo o tráfego de entrada. Endian Firewall permite configurar as características mais importantes.
+
+![Image](/images/service/serv4.jpg)
+
+- Time Server Administrativo Endian Firewall pode ser configurado para obter o tempo de um timeserver, também pode fornecer esse tempo para outras máquinas em sua rede.
+
+![Image](/images/service/serv5.jpg)
+
+- Sistema de Detecção e Prevenção de Intrusão Endian Firewall contém um poderoso sistema de detecção de intrusão que analisa o conteúdo de pacotes recebidos pelo firewall e pesquisas nas assinaturas conhecidas de actividade maliciosa.
+
+![Image](/images/service/serv6.jpg)
