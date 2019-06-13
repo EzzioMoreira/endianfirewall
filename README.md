@@ -140,27 +140,27 @@ As páginas de status apresenta uma lista completa de informações sobre o esta
 - **Módulos carregados:** Isso exibe todos os módulos atualmente carregados e em uso pelo kernel.
 - **Kernel Versão:** Exibe informações sobre o próprio Kernel do Endian. Ele exibe versão do kernel.
 
-![Image](/images/status1.jpg)
+![Image](/images/status1.png)
 
 * Status de Rede
 
 Status da rede exibe informações sobre todos os seus dispositivos de rede. Isto inclui PPP, OpenVPN, IPSec, auto-retorno, etc. Basicamente, isto é a saída de ifconfig.
 
-![Image](/images/status2.jpg)
+![Image](/images/status2.png)
 
 * Gráficos sistema clique em um dos gráficos (uso da CPU, uso de memória, uso de troca e acesso ao disco) para obter gráficos de uso por dia, semana, mês e ano.
 
-![Image](/images/status3.jpg)
+![Image](/images/status3.png)
 
 * Tráfego Gráficos esta página dá uma descrição gráfica do tráfego de entrada e de saída. Há seções para cada interface de rede, Verde e Vermelho (Azul e laranja se configurado). Clique em um dos gráficos para mostrar mais gráficos do tráfego nessa interface: por dia, semana, mês e ano.
 
-![Image](/images/status4.jpg)
+![Image](/images/status4.png)
 
 * Gráficos Proxy mostra o tráfego que passou pelo serviço de proxy. Esta informação é útil se o proxy tem o tamanho correto para a carga que está sendo experimentado.
 
 * Ligações Endian Firewall utiliza a instalação firewall Linux Netfilter ou IPTables para manter um firewall stateful. O controle de conexões para todas as ZONAS, com base em ambos os endereços IP de origem e de destino e portas.
 
-![Image](/images/status5.jpg)
+![Image](/images/status5.png)
 
 * Estatísticas de correio SMTP esta página mostra estatísticas gráficos sobre o proxy SMTP Mail.
 
