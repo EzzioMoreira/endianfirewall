@@ -51,7 +51,7 @@ pressione ENTER para continuar com instalação.
 
 ![Image](/images/install1.jpg)
 
-**2* Selecione a linguagem English, após a escolha pressione TAB para descer ate o botão OK em seguida aperte a tecla ENTER. Será apresentada tela de boas vindas e
+**2** Selecione a linguagem English, após a escolha pressione TAB para descer ate o botão OK em seguida aperte a tecla ENTER. Será apresentada tela de boas vindas e
 perguntara se deseja realizar a instalação do Endian pressione ENTER.
 
 ![image](/images/install2.jpg)
@@ -61,12 +61,12 @@ se deseja habilitar porta serial do computador, escolha opção NO em seguida OK
 
 ![Image](/images/install3.jpg)
 
-*4* Finalizado processo de instalação devemos configurar endereço IP/MÁSCARA da rede VERDE. Este IP será utilizado como Gateway padrão e para acesso ao Endian via SSH e
+**4** Finalizado processo de instalação devemos configurar endereço IP/MÁSCARA da rede VERDE. Este IP será utilizado como Gateway padrão e para acesso ao Endian via SSH e
 interface WEB, após configurar IP escolha opção OK.
 
 ![Image](/images/ip.jpg)
 
-*5** Ao final surge aviso indicando que você ejete o CD de instalação.
+**5** Ao final surge aviso indicando que você ejete o CD de instalação.
 
 ![Image](/images/cd.jpg)
 
