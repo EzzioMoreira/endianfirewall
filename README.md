@@ -1,4 +1,4 @@
-## Edian Firewall
+## **Edian Firewall**
 
 O Endian Firewall é uma [distribuição Linux](https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux) especializada em roteamento/firewall que possui uma interface unificada de gerenciamento. Foi desenvolvido pela italiana [Endian Srl](https://pt.wikipedia.org/w/index.php?title=Societ%C3%A0_a_Responsabilit%C3%A0_Limita&action=edit&redlink=1) e pela comunidade.
 
@@ -30,7 +30,7 @@ O Endian Firewall foi originalmente baseado no [IPCop](https://pt.wikipedia.org/
 - Sistema de Prevenção de Intrusos IPS
 - ADSL-Modem Suporte
 
-### Redes do Endian Firewall
+### **Redes do Endian Firewall**
 
 O Endian separa as redes conectadas a ele em quatro zonas principais (Red, Green, Blue and Orage), as duas zonas mais importantes - VERDE e VERMELHA.
 ![Image](/images/zones.png)
@@ -44,7 +44,7 @@ O Endian separa as redes conectadas a ele em quatro zonas principais (Red, Green
 
 - **AZUL**: zona Wi-Fi, ou seja, a zona que deve ser usado por clientes sem fio para acessar a Internet. As redes sem fio, muitas vezes não são seguras, então a ideia é isolar todos os clientes conectados sem fio em sua própria zona sem acesso a qualquer outra zona, exceto RED.
 
-### Instalando Endian Firewall
+### **Instalando Endian Firewall**
 
 **1** Inicie  o computador com opção de BOOT via CD-ROM, será apresentado a tela ISOLINUX,
 pressione ENTER para continuar com instalação.
@@ -70,7 +70,7 @@ interface WEB, após configurar IP escolha opção OK.
 
 ![Image](/images/cd.jpg)
 
-### Acesso Web Admin Endian Firewall
+### **Acesso Web Admin Endian Firewall**
 
 Acessaremos a interface gráfica do Endia através de um navegador, será necessário a utilização de uma maquina cliente. No seu navegador digite **https://endereipdoseuendian:10443**, no primeiro acesso você será informado que existe um problema de certificado. Basta clicar em continuar no site
 não seguro.
@@ -130,7 +130,7 @@ OK, APPLY CONFIGURATION para finalizar.
 
 ![Image](/images/acess12.jpg)
 
-### Status do Sistema
+### **Status do Sistema**
 
 As páginas de status apresenta uma lista completa de informações sobre o estado atual do seu Endian Firewall. A primeira subseção, Status do sistema:
 - **Serviços:** Exibe os serviços que estão atualmente em execução.
@@ -163,3 +163,7 @@ As páginas de status apresenta uma lista completa de informações sobre o esta
 * Estatísticas de correio SMTP esta página mostra estatísticas gráficos sobre o proxy SMTP Mail.
 
 * Mail Queue exibe a fila de correio atual.
+
+### **Network**
+
+Esta páginas é projetado para ajudá-lo a administrar configuração relacionada a rede.
