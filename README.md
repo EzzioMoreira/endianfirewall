@@ -185,7 +185,7 @@ Além de sua função principal de firewall Internet, EFW pode fornecer uma sér
 
 ![Image](/images/service/serv1.jpg)
 
-- Servidor DHCP (Dynamic Host Configuration Protocol) permite que você controle a configuração de rede de todos os seus computadores ou outros dispositivos de sua Endian Firewall. Adicionar uma concessão fixa de endereçamento IP, baseado no endereço MAC da placa de rede na máquina.
+- Servidor DHCP (Dynamic Host Configuration Protocol) permite que você controle a configuração de rede de todos os seus computadores ou outros dispositivos da sua rede. Adicionar uma concessão fixa de endereçamento IP, baseado no endereço MAC da placa de rede na máquina.
 
 ![Image](/images/service/serv2.jpg)
 
@@ -193,7 +193,7 @@ Além de sua função principal de firewall Internet, EFW pode fornecer uma sér
 
 ![Image](/images/service/serv3.jpg)
 
-- ClamAV é um antivírus Open Source que pode ser utilizado para escanear todo o tráfego de entrada. Endian Firewall permite configurar as características mais importantes.
+- ClamAV é um antivírus Open Source que pode ser utilizado para escanear todo o tráfego de entrada. Endian Firewall permite configurar as características mais importantes do snort.
 
 ![Image](/images/service/serv4.jpg)
 
