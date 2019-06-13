@@ -72,7 +72,7 @@ interface WEB, após configurar IP escolha opção OK.
 
 ### Acesso Web Admin Endian Firewall
 Acessaremos a interface gráfica do Endia através de um navegador, será necessário a utilização de uma maquina cliente. No seu navegador digite https://endereipdoseuendian:10443, no primeiro acesso você será informado que existe um problema de certificado. Basta clicar em continuar no site não seguro.
-![Image](/images/acess1.jpg)
+![Image](/images/acess1.JPG)
 
 **1** Após abrirá a janela inicial clique no botão >>> para continuar.
 
