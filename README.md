@@ -181,7 +181,7 @@ Esta página é projetada para ajudá-lo a administrar configuração relacionad
 
 ### Serviços
 
-Além de sua função principal de firewall Internet, EFW pode fornecer uma série de outros serviços que são úteis em uma pequena rede.
+Além de sua função principal de firewall de Internet, Eendian pode fornecer uma série de outros serviços que são úteis para uma rede.
 
 ![Image](/images/service/serv1.jpg)
 
@@ -204,3 +204,24 @@ Além de sua função principal de firewall Internet, EFW pode fornecer uma sér
 - Sistema de Detecção e Prevenção de Intrusão Endian Firewall contém um poderoso sistema de detecção de intrusão que analisa o conteúdo de pacotes recebidos pelo firewall e pesquisas nas assinaturas conhecidas de actividade maliciosa.
 
 ![Image](/images/service/serv6.jpg)
+
+### Firewall
+
+Este recurso é uma das partes mais importantes do Endian Firewall, utiliza Netfilter padrão e cria suas regras bloqueio ou permissão de firewall utilizando iptables.
+
+- Port Forwarding esta subseção permite que você configure as opções de Port Forwarding para Endian Firewall. Suponha que um determinado serviço, por exemplo WEB, em execução num servidor na rede verde, seja acessível por outros dispositivos através da Internet.
+
+![Image](/images/firewall/fw1.jpg)
+
+- Incoming firewall configuration controla o acesso externo. Na imagem a seguir criei uma regra onde bloqueio qual requisitção ICMP proveninente da rede vermelha.
+
+![Image](/images/firewall/fw2.jpg)
+
+- Outgoing Firewall esta subseção permite configurar as regras de firewall de saída. Você pode globalmente permitir o tráfego de saída para RED (Internet) ou definir a única porta para o tráfego de saída. Os seguintes serviços são permitidas por padrão a partir da zona VERDE: HTTP, HTTPS, FTP, SMTP, POP3, IMAP, DNS por padrão é liberado para todas as zonas.
+Para remover uma regra, clique no ícone de lixeira . Para editar, clique no ícone de lápis. Para ativar ou desativar uma regra clique no Ativado ícone (a caixa de seleção na coluna ação) para a entrada particular que você deseja ativar ou desativar. O ícone muda para uma caixa vazia quando uma regra é desativado. Clique novamente na caixa de seleção para reativá-lo.
+
+![Image](/images/firewall/fw3.jpg)
+
+- Trafego entre zonas esta subseção permite que você configure as permissões de trafego entre as zonas do Endia, isolando a redes verde das demais.
+
+![Image](/images/firewall/fw4.jpg)
