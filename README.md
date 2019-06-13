@@ -121,10 +121,13 @@ OK, APPLY CONFIGURATION para finalizar.
 
 ![Image](/images/acess10.jpg)
 
+**10** Aguarde um minuto será exibida tela de login do Endian, digite usuário *admin* e senha que foi definida no passo *5*. Endian solicita que você digite endereço de e-mail, apenas ignore clicando em I DON´T WANT ANY UPDATES.
 
+![Image](/images/acess11.jpg)
 
-O Dashboard é a página padrão organizados em duas colunas que fornecem uma visão completa do sistema de marcha e da sua saúde. A parte superior de cada caixa relata o nome da caixa. O Painel ultimamente tem sofrido algumas alterações em sua usabilidade e novos recursos foram adicionados para melhorar a interação com o usuário. As informações visíveis na tela são atualizados em intervalos regulares.
+**11** O Dashboard é a página padrão, organizada em duas colunas que fornecem uma visão completa do sistema. As informações visíveis na tela são atualizados em intervalos regulares.
 
+![Image](/images/acess12.jpg)
 
 
 ```markdown
