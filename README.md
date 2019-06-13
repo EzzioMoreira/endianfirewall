@@ -35,14 +35,30 @@ O Endian separa as redes conectadas a ele em quatro zonas principais (Red, Green
 ![Image](/images/zones.png)
 
 
-- **VERMELHA**, este é o chamado segmento não confiável, ou seja, a WAN: Abrange todas as redes fora do Endian, em termos gerais, a Internet, e é a fonte de conexões de entrada.
+- **VERMELHA**: esta é chamada de segmento não confiável, ou seja, a WAN: Abrange todas as redes fora do Endian, em termos gerais, a Internet, e é a fonte de conexões de entrada. Possibilita configuração do modo failover.
 
-- **VERDE**, a rede interna, ou seja, a LAN. Esta zona é a mais protegida e é dedicado às estações de trabalho e nunca deve ser acessado diretamente a partir da zona vermelha. É também a única zona que, por padrão pode acessar a interface de gerenciamento.
+- **VERDE**: a rede interna, ou seja, a LAN. Esta zona é a mais protegida e é dedicado às estações de trabalho e nunca deve ser acessado diretamente a partir da zona vermelha. É também a única zona que, por padrão pode acessar a interface de gerenciamento.
 
-- **LARANJA**, ou **DMZ**, esta zona deve hospedar os servidores que precisam acessar a Internet para fornecer serviços (por exemplo, SMTP / POP, SVN e HTTP). Se um invasor consegue quebrar um dos serviços/servidores, o mesmo ficará preso dentro da DMZ e não será capaz atingir a zona verde.
+- **LARANJA** ou **DMZ**: esta zona deve hospedar os servidores que precisam acessar a Internet para fornecer serviços (por exemplo, SMTP / POP, SVN e HTTP). Se um invasor consegue quebrar um dos serviços/servidores, o mesmo ficará preso dentro da DMZ e não será capaz atingir a zona verde.
 
-- **AZUL**, zona Wi-Fi, ou seja, a zona que deve ser usado por clientes sem fio para acessar a Internet. As redes sem fio, muitas vezes não são seguras, então a ideia é isolar todos os clientes conectados sem fio em sua própria zona sem acesso a qualquer outra zona, exceto RED.
+- **AZUL**: zona Wi-Fi, ou seja, a zona que deve ser usado por clientes sem fio para acessar a Internet. As redes sem fio, muitas vezes não são seguras, então a ideia é isolar todos os clientes conectados sem fio em sua própria zona sem acesso a qualquer outra zona, exceto RED.
 
+### Instalando Endian Firewall
+
+1. Inicie  o computador com opção de BOOT via CD-ROM, será apresentado a tela ISOLINUX, pressione ENTER para continuar com instalação.
+![Image](/images/install1.jpg)
+
+2. Selecione a linguagem English, após a escolha pressione TAB para descer ate o botão OK em seguida aperte a tecla ENTER. Será apresentada tela de boas vindas e perguntara se deseja realizar a instalação do Endian pressione ENTER.
+![image](/images/install2.jpg)
+
+3. Proximo passo informa que todos os arquivos do seu disco serão apagados, prossiga com selecionando YES e depois pressione OK para continuar. Em seguida será perguntado se deseja habilitar porta serial do computador, escolha opção NO em seguida OK.
+![Image](/images/install3.jpg)
+
+4. Finalizado processo de instalação devemos configurar endereço IP/MÁSCARA da rede VERDE. Este IP será utilizado como Gateway padrão e para acesso ao Endian via SSH e interface WEB, após configurar IP escolha opção OK.
+![Image](/images/ip.jpg)
+
+5. Ao final surge aviso indicando que você ejete o CD de instalação.
+![Image](/images/cd.jpg)
 
 ```markdown
 Syntax highlighted code block
