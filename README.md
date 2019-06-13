@@ -71,6 +71,7 @@ interface WEB, após configurar IP escolha opção OK.
 ![Image](/images/cd.jpg)
 
 ### Acesso Web Admin Endian Firewall
+
 Acessaremos a interface gráfica do Endia através de um navegador, será necessário a utilização de uma maquina cliente. No seu navegador digite **https://endereipdoseuendian:10443**, no primeiro acesso você será informado que existe um problema de certificado. Basta clicar em continuar no site
 não seguro.
 
@@ -129,31 +130,38 @@ OK, APPLY CONFIGURATION para finalizar.
 
 ![Image](/images/acess12.jpg)
 
+### Status do Sistema
 
-```markdown
-Syntax highlighted code block
+As páginas de status apresenta uma lista completa de informações sobre o estado atual do seu Endian Firewall. A primeira subseção, Status do sistema:
+- **Serviços:** Exibe os serviços que estão atualmente em execução.
+- **Memória:** Exibe o uso swapfile de memória.
+- **Uso de disco:** Mostra a saída do df, que relata a quantidade de total (Tamanho), usado e espaço livre em disco.
+- **Uptime e Usuários:** Exibe a saída do w comando que informa o tempo atual, informações sobre o tempo que o sistema tem funcionado sem reinicialização.
+- **Módulos carregados:** Isso exibe todos os módulos atualmente carregados e em uso pelo kernel.
+- **Kernel Versão:** Exibe informações sobre o próprio Kernel do Endian. Ele exibe versão do kernel.
 
-# Header 1
-## Header 2
-### Header 3
+![Image](/images/status1.jpg)
 
-- Bulleted
-- List
+* Status de Rede
 
-1. Numbered
-2. List
+Status da rede exibe informações sobre todos os seus dispositivos de rede. Isto inclui PPP, OpenVPN, IPSec, auto-retorno, etc. Basicamente, isto é a saída de ifconfig.
 
-**Bold** and _Italic_ and `Code` text
+![Image](/images/status2.jpg)
 
-[Link](url) and ![Image](src)
-```
+* Gráficos sistema clique em um dos gráficos (uso da CPU, uso de memória, uso de troca e acesso ao disco) para obter gráficos de uso por dia, semana, mês e ano.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![Image](/images/status3.jpg)
 
-### Jekyll Themes
+* Tráfego Gráficos esta página dá uma descrição gráfica do tráfego de entrada e de saída. Há seções para cada interface de rede, Verde e Vermelho (Azul e laranja se configurado). Clique em um dos gráficos para mostrar mais gráficos do tráfego nessa interface: por dia, semana, mês e ano.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/EzzioMoreira/endianfirewall/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![Image](/images/status4.jpg)
 
-### Support or Contact
+* Gráficos Proxy mostra o tráfego que passou pelo serviço de proxy. Esta informação é útil se o proxy tem o tamanho correto para a carga que está sendo experimentado.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* Ligações Endian Firewall utiliza a instalação firewall Linux Netfilter ou IPTables para manter um firewall stateful. O controle de conexões para todas as ZONAS, com base em ambos os endereços IP de origem e de destino e portas.
+
+![Image](/images/status5.jpg)
+
+* Estatísticas de correio SMTP esta página mostra estatísticas gráficos sobre o proxy SMTP Mail.
+
+* Mail Queue exibe a fila de correio atual.
