@@ -71,7 +71,9 @@ interface WEB, após configurar IP escolha opção OK.
 ![Image](/images/cd.jpg)
 
 ### Acesso Web Admin Endian Firewall
-Acessaremos a interface gráfica do Endia através de um navegador, será necessário a utilização de uma maquina cliente. No seu navegador digite **https://endereipdoseuendian:10443**, no primeiro acesso você será informado que existe um problema de certificado. Basta clicar em continuar no site não seguro.
+Acessaremos a interface gráfica do Endia através de um navegador, será necessário a utilização de uma maquina cliente. No seu navegador digite **https://endereipdoseuendian:10443**, no primeiro acesso você será informado que existe um problema de certificado. Basta clicar em continuar no site
+não seguro.
+
 ![Image](/images/acess1.JPG)
 
 **1** Após abrirá a janela inicial clique no botão >>> para continuar.
@@ -83,29 +85,40 @@ Acessaremos a interface gráfica do Endia através de um navegador, será necess
 ![Image](/images/acess3.jpg)
 
 **3** Marque opção que aceita os termos e avance.
+
 ![Image](/images/acess4.jpg)
 
-**4** Tela seguinte pergunta se você deseja restaurar uma cópia de segurança já existente, apenas clique no botão >>> para avençar.
+**4** Tela seguinte pergunta se você deseja restaurar uma cópia de segurança já existente, apenas clique
+ no botão >>> para avençar.
+
 ![Image](/images/acess5.jpg)
 
-**5** Na próxima janela defina as senhas de administração da interface web e senha de root para acesso via SSH.
+**5** Na próxima janela defina as senhas de administração da interface web e senha de root para acesso
+via SSH.
 
 ![Image](/images/acess6.jpg)
+
 **6** Você deve configurar a ZONA VERMELHA de acordo com serviço fornecido pelo seu provedor de internet.
 - ETHERNET STATIC A interface RED recebera um endereço IP estático.
 - DHCP ETHERNET A interface RED recebe sua configuração de rede via DHCP (dinâmico).
 - PPPoE A interface vermelha está ligado a um modem ADSL. Esta opção só é necessária quando o modem utiliza o modo de bridge e requer usar PPPoE para se conectar ao provedor.
 - ADSL (USB, PCI) A interface RED se conecta a um modem ADSL através de um cabo USB ou PCI.
 - ISDN A interface VERMELHO é uma ligação RDIS.
+
 ![Image](/images/acess7.jpg)
 
 **7** Apenas avence janela de configuração das redes LARANJA E AZUL.
+
 ![Image](/images/acess8.jpg)
 
-**8** Configuração da ZONA VERDE endereço que configuramos na instalação caso queira alterar escolha um novo endereçamento e máscara, digite nome do grupo de trabalho ou AD.
+**8** Configuração da ZONA VERDE endereço que configuramos na instalação caso queira alterar escolha um novo endereçamento e máscara, digite nome do grupo de trabalho ou
+AD.
+
 ![Image](/images/acess9.jpg)
 
-**9** Próxima configuração escolha servidor DNS para Endian, clique no botão >>> até chegar na opção OK, APPLY CONFIGURATION para finalizar.
+**9** Próxima configuração escolha servidor DNS para Endian, clique no botão >>> até chegar na opção
+OK, APPLY CONFIGURATION para finalizar.
+
 ![Image](/images/acess10.jpg)
 
 
