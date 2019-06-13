@@ -142,9 +142,7 @@ As páginas de status apresenta uma lista completa de informações sobre o esta
 
 ![Image](/images/status1.jpg)
 
-* Status de Rede
-
-Status da rede exibe informações sobre todos os seus dispositivos de rede. Isto inclui PPP, OpenVPN, IPSec, auto-retorno, etc. Basicamente, isto é a saída de ifconfig.
+* Status de Rede exibe informações sobre todos os seus dispositivos de rede. Isto inclui PPP, OpenVPN, IPSec, auto-retorno, etc. Basicamente, isto é a saída de ifconfig.
 
 ![Image](/images/status2.jpg)
 
