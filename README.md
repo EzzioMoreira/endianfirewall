@@ -34,7 +34,7 @@ O Endian Firewall foi originalmente baseado no [IPCop](https://pt.wikipedia.org/
 O Endian separa as redes conectadas a ele em quatro zonas principais (Red, Green, Blue and Orage), as duas zonas mais importantes - VERDE e VERMELHA.
 ![Image](/images/zones.png)
 
-```markdown
+
 - **VERMELHA**, este é o chamado segmento não confiável, ou seja, a WAN: Abrange todas as redes fora do Endian, em termos gerais, a Internet, e é a fonte de conexões de entrada.
 
 - **VERDE**, a rede interna, ou seja, a LAN. Esta zona é a mais protegida e é dedicado às estações de trabalho e nunca deve ser acessado diretamente a partir da zona vermelha. É também a única zona que, por padrão pode acessar a interface de gerenciamento.
@@ -43,7 +43,7 @@ O Endian separa as redes conectadas a ele em quatro zonas principais (Red, Green
 
 - **AZUL**, zona Wi-Fi, ou seja, a zona que deve ser usado por clientes sem fio para acessar a Internet. As redes sem fio, muitas vezes não são seguras, então a ideia é isolar todos os clientes conectados sem fio em sua própria zona sem acesso a qualquer outra zona, exceto RED.
 
-```
+
 ```markdown
 Syntax highlighted code block
 
