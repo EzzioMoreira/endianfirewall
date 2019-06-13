@@ -2,7 +2,7 @@
 
 O Endian Firewall é uma [distribuição Linux](https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux) especializada em roteamento/firewall que possui uma interface unificada de gerenciamento. Foi desenvolvido pela italiana [Endian Srl](https://pt.wikipedia.org/w/index.php?title=Societ%C3%A0_a_Responsabilit%C3%A0_Limita&action=edit&redlink=1) e pela comunidade.
 
-O Endian Firewall foi originalmente baseado no [IPCop](https://pt.wikipedia.org/wiki/IPCop), sendo que este é um fork do projeto [Smoothwall](http://en.wikipedia.org/wiki/SmoothWall). 
+O Endian Firewall foi originalmente baseado no [IPCop](https://pt.wikipedia.org/wiki/IPCop), sendo que este é um fork do projeto [Smoothwall](http://en.wikipedia.org/wiki/SmoothWall).
 [Wikipédia](https://pt.wikipedia.org/wiki/Endian_Firewall).
 ![Image](/images/logo.jpg)
 
@@ -47,18 +47,24 @@ O Endian separa as redes conectadas a ele em quatro zonas principais (Red, Green
 ### Instalando Endian Firewall
 
 1. Inicie  o computador com opção de BOOT via CD-ROM, será apresentado a tela ISOLINUX, pressione ENTER para continuar com instalação.
+
 ![Image](/images/install1.jpg)
 
 2. Selecione a linguagem English, após a escolha pressione TAB para descer ate o botão OK em seguida aperte a tecla ENTER. Será apresentada tela de boas vindas e perguntara se deseja realizar a instalação do Endian pressione ENTER.
+
 ![image](/images/install2.jpg)
 
 3. Proximo passo informa que todos os arquivos do seu disco serão apagados, prossiga com selecionando YES e depois pressione OK para continuar. Em seguida será perguntado se deseja habilitar porta serial do computador, escolha opção NO em seguida OK.
+
 ![Image](/images/install3.jpg)
 
 4. Finalizado processo de instalação devemos configurar endereço IP/MÁSCARA da rede VERDE. Este IP será utilizado como Gateway padrão e para acesso ao Endian via SSH e interface WEB, após configurar IP escolha opção OK.
+
+
 ![Image](/images/ip.jpg)
 
 5. Ao final surge aviso indicando que você ejete o CD de instalação.
+
 ![Image](/images/cd.jpg)
 
 ```markdown
