@@ -46,7 +46,8 @@ O Endian separa as redes conectadas a ele em quatro zonas principais (Red, Green
 
 ### Instalando Endian Firewall
 
-1. Inicie  o computador com opção de BOOT via CD-ROM, será apresentado a tela ISOLINUX, pressione ENTER para continuar com instalação.
+1. Inicie  o computador com opção de BOOT via CD-ROM, será apresentado a tela ISOLINUX,
+pressione ENTER para continuar com instalação.
 
 ![Image](/images/install1.jpg)
 
