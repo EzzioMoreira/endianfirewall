@@ -270,3 +270,27 @@ utilizadas para o tráfego HTTP (80, 443, 8000, 8080, etc.).
 - Firewall regista ligações de saída assinale esta opção se você deseja que o firewall registre todas as conexões de saída.
 - Log termos de consulta a parte da URL contendo consultas dinâmicas serão removidos por padrão antes de iniciar sessão. Ativando a opção de termos de consulta de log vai desligar isso e a URL completa será registrado.
 - Log useragents ativando esta opção irá escrever a string useragent no arquivo de log /var/log/squid/useragent.log . Esta opção de arquivo de log só deve ser ativado para fins de depuração e o resultado não é mostrado dentro do visualizador de log baseado em GUI.
+
+![Image](/images/proxy/px3.jpg)
+
+- Gerenciamento de cache parâmetros de controle de cache, tamanho do cache de memória esta é a quantidade de RAM física para ser usado para objetos em cache e em trânsito. Este valor não deve exceder mais de 50% de RAM instalada. O mínimo para esse valor é de 1MB.
+- Cache disco rígido quantidade de espaço em disco (MB) a ser usado para objetos em cache.
+
+- Tamanho min objecto, objetos menores do que esse tamanho não será salva no disco. O valor é especificado em kilobytes, e o padrão é 0 KB, o que significa que não há mínimo.
+
+- Tamanho max objecto, objetos maiores do que esse tamanho não será salva no disco. O valor é especificado em kilobytes, e o padrão é 4 MB (4096KB).
+
+- Não armazene domínios uma lista de sites que não serão armazenados em cache. Todos os domínios devem ser inseridos com um ponto à esquerda:
+
+### Configurar um perfil de filtro Web
+
+![Image](/images/proxy/px4.jpg)
+
+Um perfil de Web Filter permite definir listas de domínios/páginas web para ser usado em políticas de acesso. Por um lado, você pode definir uma lista de domínios ou páginas da web que devem ser sempre bloqueados, por outro, é possível permitir que uma ou mais categorias de filtro de URL, para bloquear páginas com base no conteúdo.
+Para configurar a filtragem web usando URL Blacklist. Você pode selecionar a categoria para bloquear clicando na seta verde, você pode escolher entre subcategorias e selecionar de forma individual.
+
+![Image](/images/proxy/px5.jpg)
+
+- Você também pode escolher uma lista customizada de sites permitidos ou bloqueados, lista branca ou listas negras. Forneça apenas o nome de domínio (.exemplo.com) com ponto mais a esquerda, nunca use a URLs (https://www.exemplo.com/).
+
+### Configurando a política de acesso
