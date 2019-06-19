@@ -250,3 +250,5 @@ Se o modo transparente está habilitado, todos os pedidos para a porta de destin
 **Nota**
 > Para reforçar o uso do servidor proxy em modo não-transparente, você terá que bloquear todas as portas de saída normalmente
 utilizadas para o tráfego HTTP (80, 443, 8000, 8080, etc.).
+
+![Image](/images/proxy/px1.jpg)
