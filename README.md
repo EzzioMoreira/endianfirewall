@@ -228,4 +228,19 @@ Para remover uma regra, clique no ícone de lixeira . Para editar, clique no íc
 
 ### Proxy HTTP
 
-O servidor proxy é um serviço que funciona como filtro de conteúdo web o cliente se conecta ao servidor proxy, em seguida, solicita uma conexão, arquivo ou outro serviço disponível em um servidor remoto. O proxy fornece ou bloqueia o recurso seja por conexão para o servidor especifico ou a partir de um cache. 
+O servidor proxy é um serviço que funciona como filtro de conteúdo web o cliente se conecta ao servidor proxy, em seguida, solicita uma conexão, arquivo ou outro serviço disponível em um servidor remoto. O proxy fornece ou bloqueia o recurso seja por conexão para o servidor especifico ou a partir de um cache.
+
+```* Lista de recursos
+- Autenticação de usuário
+- autenticação de usuário local, incluindo o gerenciamento de usuários grupo sediado
+- autenticação LDAP, incluindo MS Active Directory, Novell eDirectory e OpenLDAP
+- autenticação do Windows, incluindo o Windows NT 4.0 ou 2000/2003 domínios e Samba
+- autenticação RADIUS
+- controle de acesso avançado
+- controle de acesso baseado em rede sobre endereços IP e MAC
+- restrições de acesso de tempo baseados
+- Baixar estrangulamento
+- Filtro tipo MIME
+- Bloqueio de navegadores não autorizadas ou software de cliente
+- acesso baseado em grupo com grupos vindos do Active Directory do Windows
+````
