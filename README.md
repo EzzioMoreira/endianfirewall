@@ -230,17 +230,20 @@ Para remover uma regra, clique no ícone de lixeira . Para editar, clique no íc
 
 O servidor proxy é um serviço que funciona como filtro de conteúdo web o cliente se conecta ao servidor proxy, em seguida, solicita uma conexão, arquivo ou outro serviço disponível em um servidor remoto. O proxy fornece ou bloqueia o recurso seja por conexão para o servidor especifico ou a partir de um cache.
 
-```Lista de recursos
-- Autenticação de usuário
-- autenticação de usuário local, incluindo o gerenciamento de usuários grupo sediado
-- autenticação LDAP, incluindo MS Active Directory, Novell eDirectory e OpenLDAP
-- autenticação do Windows, incluindo o Windows NT 4.0 ou 2000/2003 domínios e Samba
-- autenticação RADIUS
-- controle de acesso avançado
-- controle de acesso baseado em rede sobre endereços IP e MAC
-- restrições de acesso de tempo baseados
-- Baixar estrangulamento
-- Filtro tipo MIME
-- Bloqueio de navegadores não autorizadas ou software de cliente
-- acesso baseado em grupo com grupos vindos do Active Directory do Windows
-```
+* Lista de recursos
+
+- Autenticação de usuário local, incluindo o gerenciamento de usuários grupo sediado.
+- Autenticação LDAP, incluindo MS Active Directory e OpenLDAP.
+- Controle de acesso avançado, baseado em rede sobre endereços IP e MAC.
+- Acesso baseado em grupos vindos do Active Directory do Windows.
+- Restrições de acesso baseados em horário especifico.
+- Filtro tipo MIME (extensões de arquivos).
+- Bloqueio de navegadores ou software de cliente.
+
+### Configuração do Proxy WEB
+
+Habilitando o proxy permite que o Endian passe a escutar as solicitações sobre a zona seleccionada (verde ou azul ou laranja).
+Se o modo transparente está habilitado, todos os pedidos para a porta de destino 80 será encaminhada para o servidor proxy, sem que haja a necessidade de qualquer alterações nas configuração nas maquinas clientes.
+> Aviso
+> modo transparente funciona somente para porto de destino 80. Todos os outros pedidos (por exemplo, a porta 443 para SSL) irá
+> ignorar o servidor proxy.
