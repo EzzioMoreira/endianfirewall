@@ -225,3 +225,7 @@ Para remover uma regra, clique no ícone de lixeira . Para editar, clique no íc
 - Trafego entre zonas esta subseção permite que você configure as permissões de trafego entre as zonas do Endia, isolando a redes verde das demais.
 
 ![Image](/images/firewall/fw4.jpg)
+
+### Proxy HTTP
+
+O servidor proxy é um serviço que funciona como filtro de conteúdo web o cliente se conecta ao servidor proxy, em seguida, solicita uma conexão, arquivo ou outro serviço disponível em um servidor remoto. O proxy fornece ou bloqueia o recurso seja por conexão para o servidor especifico ou a partir de um cache. 
