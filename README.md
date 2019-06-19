@@ -338,16 +338,17 @@ A página de visualização de log possuem informações que podem ser exibidas 
 ![Image](/images/logs/log6.jpg)
 
 - Logs de fierwall esta página mostra os pacotes de dados que foram registrados pelo firewall EFW.
+
 > Esta seção contém as entradas para cada um dos pacotes que foram descartados pelo firewall.
-> o time do evento.
-> a cadeira firewall que foi responsável pela entrada de log.
-> a interface (iface) através do qual o pacote veio.
-> o protocolo (Proto) utilizados para esse pacote.
-> a fonte de endereço IP.
-> a porta de origem (porta src).
-> o endereço MAC do remetente.
-> endereço IP de destino.
-> a porta de destino (porta DST).
+* o time do evento.
+* a cadeira firewall que foi responsável pela entrada de log.
+* a interface (iface) através do qual o pacote veio.
+* o protocolo (Proto) utilizados para esse pacote.
+* a fonte de endereço IP.
+* a porta de origem (porta src).
+* o endereço MAC do remetente.
+* endereço IP de destino.
+* a porta de destino (porta DST).
 
 - Você pode obter informações sobre os endereços IP listados neste log, clicando em um endereço. Endian Firewall executa uma pesquisa DNS e relata qualquer informação disponível sobre seu registro, posse e posição geográfica. Ao clicar em um número de porta que você vai obter algumas informações sobre o serviço que normalmente usa essa porta.
 
