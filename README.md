@@ -243,10 +243,10 @@ O servidor proxy é um serviço que funciona como filtro de conteúdo web o clie
 
 Habilitando o proxy permite que o Endian passe a escutar as solicitações sobre a zona seleccionada (verde ou azul ou laranja).
 Se o modo transparente está habilitado, todos os pedidos para a porta de destino 80 será encaminhada para o servidor proxy, sem que haja a necessidade de qualquer alterações nas configuração nas maquinas clientes.
-> Aviso
+**Aviso**
 > modo transparente funciona somente para porto de destino 80. Todos os outros pedidos (por exemplo, a porta 443 para SSL) irá
 > ignorar o servidor proxy.
 
-> Nota
+**Nota**
 > Para reforçar o uso do servidor proxy em modo não-transparente, você terá que bloquear todas as portas de saída normalmente
 utilizadas para o tráfego HTTP (80, 443, 8000, 8080, etc.).
