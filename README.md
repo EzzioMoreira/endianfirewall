@@ -243,12 +243,30 @@ O servidor proxy é um serviço que funciona como filtro de conteúdo web o clie
 
 Habilitando o proxy permite que o Endian passe a escutar as solicitações sobre a zona seleccionada (verde ou azul ou laranja).
 Se o modo transparente está habilitado, todos os pedidos para a porta de destino 80 será encaminhada para o servidor proxy, sem que haja a necessidade de qualquer alterações nas configuração nas maquinas clientes.
+
 **Aviso**
 > modo transparente funciona somente para porto de destino 80. Todos os outros pedidos (por exemplo, a porta 443 para SSL) irá
 > ignorar o servidor proxy.
+Porta proxy, esta é a porta do servidor proxy irá atender pedidos dos clientes, caso configure como proxy não transparente.
 
 **Nota**
 > Para reforçar o uso do servidor proxy em modo não-transparente, você terá que bloquear todas as portas de saída normalmente
 utilizadas para o tráfego HTTP (80, 443, 8000, 8080, etc.).
 
 ![Image](/images/proxy/px1.jpg)
+
+- Hostname visível, se você quer apresentar um nome de host especial em mensagens de erro ou para servidores proxy.
+- Cache administrator e-mail, este endereço de e-mail será exibido nas mensagens de erro de servidor proxy. Isto é opcional.
+- Linguagem mensagens de erro, selecione o idioma em que as mensagens de erro de servidor proxy será exibido para os clientes.
+- Portas permitidas, portas permitidas que vão passar pelo proxy. O resto será bloqueado.
+
+![Image](/images/proxy/px2.jpg)
+
+- Definições do registo estas opções define que arquivos de log de proxy serão gravados.Todos os pedidos de clientes serão gravados em um arquivo de log e pode ser visto dentro do GUI na guia Logs > Proxy.
+
+**Aviso**
+> Ativar essa opção pode ser considerado invasão de privacidade pessoal dos seus clientes em alguns países e/ou quebrar outras regras legais. Na maioria dos países, o usuário deve concordar que os dados pessoais serão registrados. Não active, em um ambiente de negócios sem o consentimento por escrito do conselho de trabalhadores.
+
+- Firewall regista ligações de saída assinale esta opção se você deseja que o firewall registre todas as conexões de saída.
+- Log termos de consulta a parte da URL contendo consultas dinâmicas serão removidos por padrão antes de iniciar sessão. Ativando a opção de termos de consulta de log vai desligar isso e a URL completa será registrado.
+- Log useragents ativando esta opção irá escrever a string useragent no arquivo de log /var/log/squid/useragent.log . Esta opção de arquivo de log só deve ser ativado para fins de depuração e o resultado não é mostrado dentro do visualizador de log baseado em GUI.
