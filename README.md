@@ -352,7 +352,7 @@ A página de visualização de log possuem informações que podem ser exibidas 
 
 - Você pode obter informações sobre os endereços IP listados neste log, clicando em um endereço. Endian Firewall executa uma pesquisa DNS e relata qualquer informação disponível sobre seu registro, posse e posição geográfica. Ao clicar em um número de porta que você vai obter algumas informações sobre o serviço que normalmente usa essa porta.
 
-### Sites de referencias
+### Sites de referencia
 
 * [Guia de  administração Endian](https://www.endian.com/fileadmin/documentation/efw-admin-guide/en/efw-admin-guide.html) https://www.endian.com/fileadmin/documentation/efw-admin-guide/en/efw-admin-guide.html
 * [Help Endian](https://help.endian.com/hc/en-us) https://help.endian.com/hc/en-us
