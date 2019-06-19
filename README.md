@@ -294,3 +294,18 @@ Para configurar a filtragem web usando URL Blacklist. Você pode selecionar a ca
 - Você também pode escolher uma lista customizada de sites permitidos ou bloqueados, lista branca ou listas negras. Forneça apenas o nome de domínio (.exemplo.com) com ponto mais a esquerda, nunca use a URLs (https://www.exemplo.com/).
 
 ### Configurando a política de acesso
+
+![Image](/images/proxy/px6.jpg)
+
+- O último passo é criar uma política de acesso que irá mapear o perfil de filtragem de conteúdo com base em uma configuração de rede específica. No exemplo acima, estamos criando uma política simples para a **zona verde** toda a rede que está usando o perfil de filtragem de conteúdo **padrão** que foi configurado na etapa anterior.
+
+![Image](/images/proxy/px7.jpg)
+
+- Clique em Criar política, em seguida, aplicar as alterações para finalizar a configuração.
+
+- Você pode testar sua configuração de navegação na Internet a partir da rede verde e você deve ver uma página de bloqueio em sites que correspondem as categorias selecionadas como restrita.
+
+![Image](/images/proxy/px8.jpg)
+
+**Aviso**
+>Se você optou por usar proxy não transparente, lembre de definir as configurações em seu navegado. Veja tutorial [clicando aqui.](https://br.ccm.net/faq/28295-como-configurar-o-proxy-no-navegador)
