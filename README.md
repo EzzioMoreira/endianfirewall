@@ -354,5 +354,5 @@ A página de visualização de log possuem informações que podem ser exibidas 
 
 ### Sites de referencias
 
-1. (https://www.endian.com/fileadmin/documentation/efw-admin-guide/en/efw-admin-guide.html#efw.log.introduction)
+1. [Guia de  administração Endian](https://www.endian.com/fileadmin/documentation/efw-admin-guide/en/efw-admin-guide.html#efw.log.introduction) https://www.endian.com/fileadmin/documentation/efw-admin-guide/en/efw-admin-guide.html#efw.log.introduction
 2. (https://help.endian.com/hc/en-us)
