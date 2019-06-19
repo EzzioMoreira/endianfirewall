@@ -309,3 +309,49 @@ Para configurar a filtragem web usando URL Blacklist. Você pode selecionar a ca
 
 **Aviso**
 >Se você optou por usar proxy não transparente, lembre de definir as configurações em seu navegado. Veja tutorial [clicando aqui.](https://br.ccm.net/faq/28295-como-configurar-o-proxy-no-navegador)
+
+### Logs
+
+![Image](/images/logs/log1.jpg)
+
+A página de visualização de log possuem informações que podem ser exibidas ou exportadas. Por padrão, o visualizador de log sempre mostra a maioria das linhas de log reais como eles aparecem nos arquivos de log do sistema. Os arquivos de log de modo arquivados permanecerá no disco durante 52 semanas até que eles serão apagados.
+- Definições do registo página Web Administrativo nesta seção você pode configurar algumas opções úteis. A página é dividida em quatro seções. Cada um deles são descritos abaixo:
+
+![Image](/images/logs/log2.jpg)
+
+- Configurar visualizador de log, define número de linhas, especifica quantas linhas log você deseja que o visualizador exiba em uma página.
+
+- Ordenar em ordem cronológica inversa assinale esta opção se você gostaria que o visualizador de log para exiba as linhas de registo cronologicamente mais recentes primeiro.
+
+![Image](/images/logs/log3.jpg)
+
+- Configuração resumida de Log, resume para x dias define por quantos dias você gostaria de salvar os resumos diários no disco. Nível de detalhe, permite que você decida o nível do resumo dos registros de detalhes. Você pode escolher entre as seguintes possibilidades: baixo, medio, alto. Devido a esta configuração o resumo irá fornecer-lhe com menos mais ou muita informação,.
+
+![Image](/images/logs/log4.jpg)
+
+- Configuração de log remoto, é possível deixar Endian firewall registrar todos os seus arquivos de log também para um servidor syslog remoto. Isto é muito útil se você precisa ter todos os registros de sua empresa em um servidor centralizado de logs e é útil, por exemplo, para ter acesso aos arquivos de log em caso de um desastre. A fim de permitir o registro remoto, você precisa fornecer o nome do host ou endereço IP do servidor syslog remoto no campo de texto chamado servidor Syslog e em seguida, assinale a caixa de seleção Ativado.
+
+![Image](/images/logs/log5.jpg)
+
+- Resumo de Log nesta seção você pode ter uma visão geral dos registros do dia seleccionado.
+
+![Image](/images/logs/log6.jpg)
+
+- Logs de fierwall esta página mostra os pacotes de dados que foram registrados pelo firewall EFW.
+> Esta seção contém as entradas para cada um dos pacotes que foram descartados pelo firewall.
+> o time do evento.
+> a cadeira firewall que foi responsável pela entrada de log.
+> a interface (iface) através do qual o pacote veio.
+> o protocolo (Proto) utilizados para esse pacote.
+> a fonte de endereço IP.
+> a porta de origem (porta src).
+> o endereço MAC do remetente.
+> endereço IP de destino.
+> a porta de destino (porta DST).
+
+- Você pode obter informações sobre os endereços IP listados neste log, clicando em um endereço. Endian Firewall executa uma pesquisa DNS e relata qualquer informação disponível sobre seu registro, posse e posição geográfica. Ao clicar em um número de porta que você vai obter algumas informações sobre o serviço que normalmente usa essa porta.
+
+### Sites de referencias
+
+1. https://www.endian.com/fileadmin/documentation/efw-admin-guide/en/efw-admin-guide.html#efw.log.introduction
+2. https://help.endian.com/hc/en-us
