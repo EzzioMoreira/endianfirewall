@@ -230,8 +230,7 @@ Para remover uma regra, clique no ícone de lixeira . Para editar, clique no íc
 
 O servidor proxy é um serviço que funciona como filtro de conteúdo web o cliente se conecta ao servidor proxy, em seguida, solicita uma conexão, arquivo ou outro serviço disponível em um servidor remoto. O proxy fornece ou bloqueia o recurso seja por conexão para o servidor especifico ou a partir de um cache.
 
-* Lista de recursos
-
+**Lista de recursos**
 - Autenticação de usuário local, incluindo o gerenciamento de usuários grupo sediado.
 - Autenticação LDAP, incluindo MS Active Directory e OpenLDAP.
 - Controle de acesso avançado, baseado em rede sobre endereços IP e MAC.
@@ -247,3 +246,7 @@ Se o modo transparente está habilitado, todos os pedidos para a porta de destin
 > Aviso
 > modo transparente funciona somente para porto de destino 80. Todos os outros pedidos (por exemplo, a porta 443 para SSL) irá
 > ignorar o servidor proxy.
+
+> Nota
+> Para reforçar o uso do servidor proxy em modo não-transparente, você terá que bloquear todas as portas de saída normalmente
+utilizadas para o tráfego HTTP (80, 443, 8000, 8080, etc.).
