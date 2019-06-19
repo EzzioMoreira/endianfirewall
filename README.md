@@ -230,7 +230,7 @@ Para remover uma regra, clique no ícone de lixeira . Para editar, clique no íc
 
 O servidor proxy é um serviço que funciona como filtro de conteúdo web o cliente se conecta ao servidor proxy, em seguida, solicita uma conexão, arquivo ou outro serviço disponível em um servidor remoto. O proxy fornece ou bloqueia o recurso seja por conexão para o servidor especifico ou a partir de um cache.
 
-```* Lista de recursos
+``` Lista de recursos
 - Autenticação de usuário
 - autenticação de usuário local, incluindo o gerenciamento de usuários grupo sediado
 - autenticação LDAP, incluindo MS Active Directory, Novell eDirectory e OpenLDAP
@@ -243,4 +243,4 @@ O servidor proxy é um serviço que funciona como filtro de conteúdo web o clie
 - Filtro tipo MIME
 - Bloqueio de navegadores não autorizadas ou software de cliente
 - acesso baseado em grupo com grupos vindos do Active Directory do Windows
-````
+```
